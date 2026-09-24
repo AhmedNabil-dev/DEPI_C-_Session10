@@ -1,0 +1,15 @@
+C:\Depi_fullstack\Tech\C#\Session 10\DEPI_C#_Session10\DEPI_C#_Session10\bin\Debug\net8.0\DEPI_C#_Session10.exe
+C:\Depi_fullstack\Tech\C#\Session 10\DEPI_C#_Session10\DEPI_C#_Session10\bin\Debug\net8.0\DEPI_C#_Session10.deps.json
+C:\Depi_fullstack\Tech\C#\Session 10\DEPI_C#_Session10\DEPI_C#_Session10\bin\Debug\net8.0\DEPI_C#_Session10.runtimeconfig.json
+C:\Depi_fullstack\Tech\C#\Session 10\DEPI_C#_Session10\DEPI_C#_Session10\bin\Debug\net8.0\DEPI_C#_Session10.dll
+C:\Depi_fullstack\Tech\C#\Session 10\DEPI_C#_Session10\DEPI_C#_Session10\bin\Debug\net8.0\DEPI_C#_Session10.pdb
+C:\Depi_fullstack\Tech\C#\Session 10\DEPI_C#_Session10\DEPI_C#_Session10\obj\Debug\net8.0\DEPI_C#_Session10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Depi_fullstack\Tech\C#\Session 10\DEPI_C#_Session10\DEPI_C#_Session10\obj\Debug\net8.0\DEPI_C#_Session10.AssemblyInfoInputs.cache
+C:\Depi_fullstack\Tech\C#\Session 10\DEPI_C#_Session10\DEPI_C#_Session10\obj\Debug\net8.0\DEPI_C#_Session10.AssemblyInfo.cs
+C:\Depi_fullstack\Tech\C#\Session 10\DEPI_C#_Session10\DEPI_C#_Session10\obj\Debug\net8.0\DEPI_C#_Session10.csproj.CoreCompileInputs.cache
+C:\Depi_fullstack\Tech\C#\Session 10\DEPI_C#_Session10\DEPI_C#_Session10\obj\Debug\net8.0\DEPI_C#_Session10.dll
+C:\Depi_fullstack\Tech\C#\Session 10\DEPI_C#_Session10\DEPI_C#_Session10\obj\Debug\net8.0\refint\DEPI_C#_Session10.dll
+C:\Depi_fullstack\Tech\C#\Session 10\DEPI_C#_Session10\DEPI_C#_Session10\obj\Debug\net8.0\DEPI_C#_Session10.pdb
+C:\Depi_fullstack\Tech\C#\Session 10\DEPI_C#_Session10\DEPI_C#_Session10\obj\Debug\net8.0\DEPI_C#_Session10.genruntimeconfig.cache
+C:\Depi_fullstack\Tech\C#\Session 10\DEPI_C#_Session10\DEPI_C#_Session10\obj\Debug\net8.0\ref\DEPI_C#_Session10.dll
+C:\Depi_fullstack\Tech\C#\Session 10\DEPI_C#_Session10\DEPI_C#_Session10\obj\Debug\net8.0\DEPI_C#_.57526FE9.Up2Date
