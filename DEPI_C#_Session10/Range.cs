@@ -1,45 +1,38 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
+using System.Reflection;
 
-namespace DEPI_C__Session10
+namespace DEPI_C__Session10.Session10
 {
-    using System;
-    using System.Numerics;
-
-    namespace Session10
+    public class Range<T> where T : IComparable<T>, INumber<T>
     {
-        public class Range<T> where T : IComparable<T>, INumber<T>
+        public T Minimum { get; }
+        public T Maximum { get; }
+
+        public Range(T minimum, T maximum)
         {
-            public T Minimum { get;  }
-            public T Maximum { get;  }
+            Minimum = minimum;
+            Maximum = maximum;
+        }
 
-            private int _Size;
+        public bool IsInRange(T value)
+        {
+            return value.CompareTo(Minimum) >= 0 &&
+                   value.CompareTo(Maximum) <= 0;
+        }
 
-           
-            public Range(T minimum, T maximum)
-            {
-                Minimum = minimum;
-                Maximum = maximum;
+        public int Length()
+        {
+            PropertyInfo? minimumProperty =
+                typeof(Range<T>).GetProperty(nameof(Minimum));
 
-                _Size = Convert.ToInt32( Maximum - Minimum);
-            }
+            PropertyInfo? maximumProperty =
+                typeof(Range<T>).GetProperty(nameof(Maximum));
 
-           
-            public bool IsInRange(T value)
-            {
-                return value.CompareTo(Minimum) >= 0 &&
-                       value.CompareTo(Maximum) <= 0;
-            }
+            T minimum = (T)minimumProperty!.GetValue(this)!;
+            T maximum = (T)maximumProperty!.GetValue(this)!;
 
-            
-            public int Length()
-            {
-                return _Size;
-            }
+            return Convert.ToInt32(maximum - minimum);
         }
     }
 }
